@@ -5,6 +5,8 @@ import eyeIcon from "../../assets/remove_red_eye-24px.svg"
 import freezeIcon from "../../assets/Freeze card.svg"
 import setlimitIcon from "../../assets/Set spend limit.svg"
 import deactivateIcon from "../../assets/Deactivate card.svg"
+import replaceIcon from "../../assets/Replace card.svg"
+import gpayIcon from "../../assets/GPay.svg"
 
 interface Card {
   id: string;
@@ -37,13 +39,13 @@ export const Card: React.FC<CardProps> = ({
             func: () => {}
         },
         {
-            name:'Deactivate card',
-            icon: deactivateIcon,
+            name:'Add to Gpay',
+            icon: gpayIcon,
             func: () => {}
         },
         {
-            name:'Deactivate card',
-            icon: deactivateIcon,
+            name:'Replace card',
+            icon: replaceIcon,
             func: () => {}
         },
         {
