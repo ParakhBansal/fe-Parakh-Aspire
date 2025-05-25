@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+.swiper-pagination-bullet {
+    background: #01D167 !important;
+  }
+
+  .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizonta {
+    bottom: 170px
+  }
