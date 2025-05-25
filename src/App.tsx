@@ -6,8 +6,6 @@ import { Header } from './components/Header/Header';
 import { Modal } from './base/Modal';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper/modules';
-import 'swiper/css';
-import 'swiper/css/pagination';
 import { getCards, addCard, toggleFreeze, getTransactions } from './utils/api';
 import { iconsArrMobile } from './utils/constants';
 
